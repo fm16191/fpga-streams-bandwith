@@ -1,0 +1,6 @@
+*.o
+*.fpga
+*.fpga_emu
+*.bc*
+*.pptx
+*.xlsx
