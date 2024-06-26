@@ -196,9 +196,9 @@ int main(int argc, char *argv[])
     }
 
     // timers allocations
-    double *timers_cpu_to_fpga = new double[NB_ITER - 1];
-    double *timers_fpga_compute = new double[NB_ITER - 1];
-    double *timers_fpga_to_cpu = new double[NB_ITER - 1];
+    double *timers_cpu_to_fpga = new double[NB_ITER];
+    double *timers_fpga_compute = new double[NB_ITER];
+    double *timers_fpga_to_cpu = new double[NB_ITER];
 
     // Kernel
     auto t1_simu = std::chrono::high_resolution_clock::now();
